@@ -51,20 +51,7 @@
 						$(".madlib_form").hide();
 						$('#results').html(response);
 						
-						
-						//function closediv(){
-							//document.getElementById("madlib_form").style.display = "none";
-    						//}
-    					 /*if (response.status === "success") {
-	                	$(".madlib_form").hide();
-	                }*/
-
 					}
-                
-	                /*if (response.status === "success") {
-	                	$(".madlib_form").hide();
-	                }*/
-                       
                 };
 
                 $('form').ajaxForm(options);
