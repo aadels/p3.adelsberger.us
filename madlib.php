@@ -49,6 +49,7 @@
                     
                     success: function(response) {
 						$('#results').html(response)
+						//$(".madlib_form").hide():
 					}
                 
 	                /*if (response.status === "success") {
