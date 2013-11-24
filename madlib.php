@@ -7,9 +7,9 @@
 </head>
 
 <body>
-
+		<!--<div id="madlib_form"></div>-->
         <form>
-                <form method='post' name="madlib_form">
+                <form method='post'>
 					Type of animal: <input type="text" id='madlib' name="input1" size=20><br>
 					Adjective: <input type="text" id='madlib' name="input2" size=20><br>
 					Room in a house: <input type="text" id='madlib' name="input3" size=20><br>
@@ -30,9 +30,10 @@
 	                <div id='results'></div>
 	                
         </form>
+    <!--</div>-->
         
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src='jquery.form.js'></script>
+        <script src='js/jquery.form.js'></script>
         
         <script>
         
@@ -45,18 +46,14 @@
                 		},
                         success: function(response) {
                             $('#results').html(response);
-                            if(response.success){
-            					$("madlib_form").hide()
-            				}		
-                            //$("form").hide();
                         } 
                         
                 };
 
                 $('form').ajaxForm(options);
-            	//$('form').submit(function(){
+            	//$('#madlib_form').submit(function(){
 				    //return false;
-				});
+				//});
 
 
         
