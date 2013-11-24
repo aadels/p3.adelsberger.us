@@ -51,12 +51,7 @@
                 };
 
                 $('form').ajaxForm(options);
-            	//$('#madlib_form').submit(function(){
-				    //return false;
-				//});
-
-
-        
+     
         </script>
         
         
