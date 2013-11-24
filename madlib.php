@@ -3,7 +3,7 @@
 <html>
 
 <head>
-     <link rel = "stylesheet" href="css/madlib.css" type="text/css">      
+     <!--<link rel = "stylesheet" href="css/madlib.css" type="text/css"> -->     
 </head>
 
 <body>
@@ -43,18 +43,13 @@
                         beforeSend: function() {
 		                    // Display a loading message while waiting for the ajax call to complete
 		                    $('#results').html("Loading...");
-		                 
+		                 }
                         success: function(response) {
                             $('#results').html(response);
-                               //if(response.success){
-            					//$("form").hide()
-                		//},
                         }     
                 };
 
                 $('form').ajaxForm(options);
-                //$('form').submit(function(){
-				    //return false;
      
         </script>
         
