@@ -48,17 +48,22 @@
                             },
                     
                     success: function(response) {
-						$('#results').html(response)
-						//$("#madlib_form").hide():
+						$(".madlib_form").hide();
+						$('#results').html(response);
 						
-						function closediv(){
-							document.getElementById("madlib_form").style.display = "none";
-    						}
+						
+						//function closediv(){
+							//document.getElementById("madlib_form").style.display = "none";
+    						//}
+    					 /*if (response.status === "success") {
+	                	$(".madlib_form").hide();
+	                }*/
+
 					}
                 
 	                /*if (response.status === "success") {
-	                	$("#madlib_form").hide().html(response).slideToggle(300);
-	                }*/ 
+	                	$(".madlib_form").hide();
+	                }*/
                        
                 };
 
