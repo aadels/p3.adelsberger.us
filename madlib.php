@@ -7,7 +7,7 @@
 </head>
 
 <body>
-                <!--<div id="madlib_form"></div>-->
+    <div class="madlib_form">
         <form>
                 <form method='post'>
                     Type of animal: <input type="text" id='madlib' name="input1" size=20><br>
@@ -27,10 +27,11 @@
                     Adjective: <input type="text" name="input15" id='madlib' size=20><br>
         
                     <input type='submit' value='See Mad-lib!'>
-                    <div id='results'></div>
+                    
                         
         </form>
-    <!--</div>-->
+    </div>
+    <div id='results'></div>
         
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src='js/jquery.form.js'></script>
@@ -38,19 +39,26 @@
         <script>
         
                 var options = {
-                        type: 'post',
-                        url: 'process.php',
-                        beforeSend: function() {
-                                    // Display a loading message while waiting for the ajax call to complete
-                                    $('#results').html("Loading...");
-                                },
-                        success: function(response) {
-                            $('#results').html(response);
-                        } 
-                        
+                    
+                    type: 'post',
+                    url: 'process.php',
+                    beforeSend: function() {
+                                // Display a loading message while waiting for the ajax call to complete
+                                $('#results').html("Loading...");
+                            },
+                    
+                    success: function(response) {
+						$('#results').html(response)
+					}
+                
+	                /*if (response.status === "success") {
+	                	$(".madlib_form").hide().html(response).slideToggle(300);
+	                }*/ 
+                       
                 };
 
                 $('form').ajaxForm(options);
+               
      
         </script>
         
