@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <title>Madlibs</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/respond.js"></script>   
+        <link type="text/css" rel="stylesheet" href="/css/madlib.css" rel="stylesheet">
+        
+        <!-- Bootstrap -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+               
+    </head>
 
-<head>
-     <link type="text/css" rel="stylesheet" href="/css/madlib.css">      
-     <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css"> 
-</head>
+    <body>  
+        <div id="wrapper">
+            <!-- row 1: navigation -->
+            <div id='menu'>
+                    <!-- navigation-->
+                <div class="row">   
+                    <nav class="navbar" role="navigation">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href='/'><img src="/img/logo.png" id="logo" alt="logo"></a>
+                            </div>
+                            <div class="collapse navbar-collapse pull-right" role="navigation" id="collapse">
+                                <ul class="nav navbar-nav">
+                                    <!-- Menu for users who are logged in-->    
+                                        <li> 
+                                            <a href='/posts/add'>Post</a> 
+                                        </li>
+                                       
+                                </ul>
+                            </div>
+                        </div><!--close container-->    
+                    </nav>
+                </div><!--close row-->  
+                
+            </div><!--close menu--> 
 
+            <div class="container">
 <body>
 
         <form class="madlib_form" method='post'>
@@ -32,10 +70,25 @@
 
             
                 <div id='results'></div>
-            
-                
-       
-        
+
+                <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <p>Madlibs<br></p>
+                      
+                    </div>
+                    <div class="col-xs-6">
+                        <p class="right pull-right">Ann Adelsberger<br>
+                            CSCI E-15 Project 3<br>
+                            Fall 2013<br>
+                            <a href="mailto:adelsbergerann@gmail.com">adelsbergerann@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- footer -->
+      
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src='js/jquery.form.js'></script>
         <script type="text/javascript" src='js/jquery.validate.js'></script>
