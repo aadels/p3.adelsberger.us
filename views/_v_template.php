@@ -33,6 +33,7 @@
 			                        <span class="icon-bar"></span>
 			                        <span class="icon-bar"></span>
 			                    </button>
+			                 	<a href='/'><img src="/img/logo.png" id="logo" alt="logo"></a>
 			            	</div>
 			            	<div class="collapse navbar-collapse pull-right" role="navigation" id="collapse">
 								<ul class="nav navbar-nav">
@@ -61,7 +62,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <p>Madlibs<br>
-                           +1 features:<br>
+                         
                         </p>
                      
                     </div>
