@@ -24,14 +24,12 @@ body {
 }
 
 #footer {
-        width: 100%;
         height: 120px;
         background-color: #0d485c;
 }
 
 
 #footer .row p {
-
         color: #fff;
         padding-top: 2%;
 }
