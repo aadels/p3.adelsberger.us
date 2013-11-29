@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="js/respond.js"></script>   
         <link type="text/css" rel="stylesheet" href="/css/madlib.css" rel="stylesheet">
-        
+        <link type="text/css" rel="stylesheet" href="/css/styles.css" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="/css/bootstrap.min.css" rel="stylesheet">
                
