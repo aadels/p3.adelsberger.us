@@ -27,7 +27,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href='/'><img src="img/logo.png" id="logo" alt="logo"></a>
+                                <a href='/'><img src="images/logo.png" id="logo" alt="logo"></a>
                             </div>
                             <div class="collapse navbar-collapse pull-right" role="navigation" id="collapse">
                                 <ul class="nav navbar-nav">
