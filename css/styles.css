@@ -30,6 +30,7 @@ body {
 
 
 #footer .row p {
+        width: 100%
         color: #fff;
         padding-top: 2%;
 }
