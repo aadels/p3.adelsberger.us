@@ -12,7 +12,7 @@
 
         <form class="madlib_form" method='post'>
         	<fieldset id= "form-fieldset">
-	            Adjective: <input type="text" id='madlib' name="input1" required size=20><br>
+	            Adjective:<input type="text" id='madlib' name="input1" required size=20><br>
 	            Plural Noun: <input type="text" id='madlib' name="input2" required size=20><br>
 	            Femenine first name: <input type="text" id='madlib' name="input3" required size=20><br>
 	            Last name: <input type="text" id='madlib' name="input4" required size=20><br>
