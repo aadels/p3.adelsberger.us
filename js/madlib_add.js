@@ -2,7 +2,7 @@
  var options = {
                     
     type: 'post',
-    url: 'process1.php',
+    url: '/views/process1.php',
     beforeSend: function() {   
     //Display a loading message while waiting for the ajax call to complete
         $('#results').html("Loading...");
