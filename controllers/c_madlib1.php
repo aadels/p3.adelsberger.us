@@ -7,7 +7,6 @@ class madlib_controller extends base_controller{
       
     } 
 
-
 	public function add(){
 
 		//Set up view
