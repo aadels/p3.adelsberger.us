@@ -11,7 +11,7 @@ class madlib_controller extends base_controller{
 	public function add(){
 
 		//Set up view
-		$this ->template->content = View::instance('v_madlib_add');
+		$this ->template->content = View::instance('v_madlib1');
 		$this->template->title = "Madlib!";
 
 		//Load JS files
