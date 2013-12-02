@@ -8,7 +8,7 @@ class madlib_controller extends base_controller{
     } 
 
 
-	public function madlib(){
+	public function add(){
 
 		//Set up view
 		$this ->template->content = View::instance('v_madlib_add');
