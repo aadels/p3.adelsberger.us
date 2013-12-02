@@ -23,7 +23,7 @@
                 <div id='results'></div>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src='js/jquery.form.js'></script>
-        <script type="text/javascript" src='js/jquery.validate.js'></script>
+        <script type="text/javascript" src='/js/jquery.form.js'></script>
+        <script type="text/javascript" src='/js/jquery.validate.js'></script>
            
 
