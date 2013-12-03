@@ -22,6 +22,6 @@ function showHide() {
      div.style.display = '';
    }
    else {
-     div.style.display = 'none';
+     div.style.display = 'block';
    }
  }
