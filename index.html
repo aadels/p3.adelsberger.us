@@ -1,10 +1,15 @@
 
-  <html>
-  <head>
-  	<title>Madlibs</title>
-  </head>
-  <body>
-  <form class="madlib_form" method='post' action ='/madlib1/add'>
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+     <link type="text/css" rel="stylesheet" href="css/madlib.css">      
+     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"> 
+</head>
+
+<body>
+  <form class="madlib_form" method='post'>
         	<fieldset id= "form-fieldset">
 	            Animal: <input type="text" id='madlib' name="input1" required size=20><br>
 	            Adjective: <input type="text" id='madlib' name="input2" required size=20><br>
@@ -26,12 +31,14 @@
         </form>
 
             
-                <div id='results'></div>
+        <fieldset>
+            <div id='results'></div>
+        </fieldset>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src='/js/jquery.form.js'></script>
-        <script type="text/javascript" src='/js/jquery.validate.js'></script>
-        <script type="text/javascript" src='/js/madlib_add.js'></script>
+        <script type="text/javascript" src='js/jquery.form.js'></script>
+        <script type="text/javascript" src='js/jquery.validate.js'></script>
+        <script type="text/javascript" src='js/madlib_add.js'></script>
   </body>
   </html>
            
