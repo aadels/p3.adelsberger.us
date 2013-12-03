@@ -5,7 +5,7 @@
 	background: #EEE;
 	margin:auto;
 	position:relative;
-	width:90%;
+	width:50%;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
@@ -53,7 +53,7 @@ input    {
 }
 input.button {
 	width:90px;
-	position:absolute;
+	position:relative;
 	right:20px;
 	bottom:20px;
 	background:#3366cc;
