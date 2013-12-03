@@ -19,9 +19,9 @@ $('form').ajaxForm(options);
 function showHide() {
    var div = document.getElementById("results");
    if (div.style.display == 'block') {
-     div.style.display = '';
+     div.style.display = 'block';
    }
    else {
-     div.style.display = 'block';
+     div.style.display = '';
    }
  }
