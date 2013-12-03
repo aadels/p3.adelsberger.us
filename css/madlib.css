@@ -4,7 +4,7 @@
 .madlib_form #form-fieldset  {
 	background: #EEE;
 	margin:auto;
-	position:center;
+	position:relative;
 	width:40%;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
@@ -24,7 +24,7 @@
  #results{
 	background: #eee;
 	margin:auto;
-	position:center;
+	position:relative;
 	width:40%;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
@@ -52,6 +52,7 @@ input    {
 input.button {
 	width:100px;
 	position:relative;
+	padding:10px;
 	right:20px;
 	bottom:20px;
 	background:#3366cc;
