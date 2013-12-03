@@ -19,7 +19,7 @@
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
  #results{
-	background: #eee;
+
 	margin:auto;
 	position:relative;
 	width:40%;
@@ -32,8 +32,7 @@
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	padding:10px;
-	border: 1px solid #999;
-	display:block;
+
 
 }
 
