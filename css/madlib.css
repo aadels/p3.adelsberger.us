@@ -52,7 +52,7 @@ input    {
 }
 input.button {
 	width:100px;
-	position:relative;
+	position:absolute;
 
 	right:20px;
 	bottom:20px;
