@@ -2,12 +2,14 @@
 /************************************************************************ 
 Set up options for ajax to display results
  ************************************************************************/
- var options = {
-    if(.madlib1){              
+if(.madlib1){  
+    var options = {
+               
         type: 'post',
         url: 'process1.php',
 }
-    else{
+else{
+    var options = {
         type: 'post',
         url: 'process1.php',
     }
