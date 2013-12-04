@@ -17,8 +17,8 @@ if(form1) {
         success: function(response) {
             $(".madlib_form").hide();
             $('#results').html(response);
-        }
-    };
+        };
+    }
 
     $('form').ajaxForm(options);
 }
@@ -36,8 +36,8 @@ else{
         success: function(response) {
             $(".madlib_form").hide();
             $('#results').html(response);
-        }
-    };
+        };
+    }
 
     $('form').ajaxForm(options);
 
