@@ -1,12 +1,15 @@
 
 // Set up the options for ajax
+(function ($) {
+        "use strict";
+        /*global jQuery, document*/
 
 var form1 = $('madlib1.html');
 var form2 = $('madlib2.html');
 
-if(form1) {  
+if (form1) {  
     var options = {
-                        
+  
         type: 'post',
         url: 'process1.php',
         beforeSend: function() {   
@@ -23,7 +26,7 @@ if(form1) {
     $('form').ajaxForm(options);
 }
 
-else{
+else {
     var options = {
                         
         type: 'post',
