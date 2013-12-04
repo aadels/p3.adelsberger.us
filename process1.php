@@ -1,4 +1,6 @@
 <?php
+
+//excerpt from  “Romeo and Juliet.” William Shakespeare.
 echo "O ". ($_POST['input1'])." heart, hid with a(n) ". ($_POST['input2'])." face! <br>
 Did ever dragon keep so fair a ".($_POST['input3']).".
  Beautiful ".($_POST['input4'])."! Fiend angelical! <br>

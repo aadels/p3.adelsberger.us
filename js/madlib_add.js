@@ -1,4 +1,7 @@
-// Set up the options for ajax
+
+/************************************************************************ 
+Set up options for ajax to display results
+ ************************************************************************/
  var options = {
                     
     type: 'post',
