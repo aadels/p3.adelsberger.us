@@ -7,12 +7,14 @@ if(.madlib1){
                
         type: 'post',
         url: 'process1.php',
+    }
 }
 else{
     var options = {
         type: 'post',
         url: 'process1.php',
     }
+}
    
     beforeSend: function() {   
     //Display a loading message while waiting for the ajax call to complete
