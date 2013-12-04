@@ -1,8 +1,8 @@
 
 // Set up the options for ajax
 
-var form1 = "madlib1.html";
-var form2 = "madlib2.html";
+var form1 = $('madlib1.html');
+var form1 = $('madlib2.html');
 
 if(form1) {  
     var options = {
