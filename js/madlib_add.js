@@ -23,7 +23,7 @@ if(form1) {
     $('form').ajaxForm(options1);
 }
 
-else {
+if(form1) {
     var options2 = {
                         
         type: 'post',
