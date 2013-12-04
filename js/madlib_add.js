@@ -3,14 +3,13 @@
 Set up options for ajax to display results
  ************************************************************************/
  var options = {
-                    
-    type: 'post',
-    if{
-        .madlib1;
+    if(.madlib1){              
+        type: 'post',
         url: 'process1.php',
-    }
+}
     else{
-        url: 'process2.php',
+        type: 'post',
+        url: 'process1.php',
     }
    
     beforeSend: function() {   
