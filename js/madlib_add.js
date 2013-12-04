@@ -5,7 +5,7 @@ var form1 = $('madlib1.html');
 var form2 = $('madlib2.html');
 
 if(form1) {  
-    var options = {
+    var options1 = {
                         
         type: 'post',
         url: 'process1.php',
@@ -20,11 +20,11 @@ if(form1) {
         }
     };
 
-    $('form').ajaxForm(options);
+    $('form').ajaxForm(options1);
 }
 
 else{
-    var options = {
+    var options2 = {
                         
         type: 'post',
         url: 'process2.php',
@@ -39,6 +39,6 @@ else{
         }
     };
 
-    $('form').ajaxForm(options);
+    $('form').ajaxForm(options2);
 
 }
