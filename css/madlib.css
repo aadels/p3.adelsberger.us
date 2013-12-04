@@ -5,7 +5,7 @@
  * adelsbergerann@gmail.com
  ************************************************************************/
 
-.madlib_form1 .madlib_form2 #form-fieldset  {
+.madlib_form1 #form-fieldset .madlib_form2 #form-fieldset {
 	background: #EEE;
 	margin:auto;
 	position:relative;
