@@ -2,7 +2,7 @@
 /************************************************************************ 
 Set up options for ajax to display results
  ************************************************************************/
-if(.madlib1){  
+if(form == .madlib1){  
     var options = {
                
         type: 'post',
@@ -22,7 +22,7 @@ else{
     },
     //Hide form and display results
     success: function(response) {
-        $(".madlib_form").hide();
+        $("#form-fieldset").hide();
         $('#results').html(response);
 	}
 };
