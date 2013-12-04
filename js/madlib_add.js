@@ -12,7 +12,7 @@ Set up options for ajax to display results
     else{
         url: 'process2.php',
     }
-    url: 'process1.php',
+   
     beforeSend: function() {   
     //Display a loading message while waiting for the ajax call to complete
         $('#results').html("Loading...");
