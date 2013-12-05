@@ -24,7 +24,7 @@ if(form ='#madlib1') {
     $('form').ajaxForm(options1);
 }
 
-else {
+else if (form ='#madlib2') {
     var options2 = {
                         
         type: 'post',
