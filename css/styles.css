@@ -10,12 +10,15 @@ body {
     height: 100%;
 }
 
-.col-xs-6 li a{
+ul {
+    list-style-type: none;
+}
+.col-xs-6 li a{ 
     color: #0d485c;
     font-size:x-large;
 }
 
-.col-xs-6 li a:hover{
+.col-xs-6 li a:hover {
     color: #ff6633;
     font-size: xx-large;
     text-decoration: none;
