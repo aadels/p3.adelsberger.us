@@ -1,6 +1,6 @@
 
 
-for ($i = 0; $i < $_POST['NAME']; $i++)
+for ($i = 0; $i < $_POST.legnth; $i++)
 {
    echo $_POST['NAME'][$i];
 }
