@@ -17,7 +17,7 @@ if(form_id == 'madlib1') {
         },
         //Hide form and display results
         success: function(response) {
-            console.log(id);
+            
             $(".madlib_form").hide();
             $('#results1').html(response);
         }
