@@ -5,7 +5,7 @@
 //var form2 = '#madlib2';
 
 //#madlib1 is the id of one of the two forms
-if('#madlib1') {  
+if($('form')=='#madlib1') {  
     var options1 = {
                         
         type: 'post',
