@@ -2,10 +2,10 @@
 // Set up the options for ajax
 
 
-//var form2 = '#madlib2';
+var value = $(this).html();
 
 //#madlib1 is the id of one of the two forms
-if($('div') =='#madlib1') {  
+if(value =='#madlib1') {  
     var options = {
                         
         type: 'post',
