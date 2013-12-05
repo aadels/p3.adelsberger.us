@@ -4,6 +4,13 @@
  * Ann Adelsberger 
  * adelsbergerann@gmail.com
  ************************************************************************/
+
+h2{
+	text-align: center
+}
+.container
+
+
 /*form style*/
 .madlib_form #form-fieldset{
 	background: #EEE;
@@ -63,11 +70,6 @@ border: 1px solid #3366cc;
 	}
 
 /*input display style*/
- 
-h2{
-	text-align: center
-}
-
 #results{
 
 	margin:auto;
