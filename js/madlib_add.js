@@ -4,7 +4,7 @@
 //var form1 = '#madlib1';
 //var form2 = '#madlib2';
 
-if(#madlib1) {  
+if('#madlib1') {  
     var options1 = {
                         
         type: 'post',
