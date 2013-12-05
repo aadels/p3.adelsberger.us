@@ -8,28 +8,15 @@
 html,
 body {
     height: 100%;
-    background-color: #FFF;
-    border-color: #4f4d4f;
-    margin: 0 20px 50px;
-}
-h2{
-    text-align: center
-}
-.container li a{
-    color: #4f4d4f;
-    font-size:large;
-}
 
-.container li a:hover{
-    color: #ff0066;
-    font-size:large;
+}
 
 /* Wrapper for body to expand to footer */
 #wrapper {
-    min-height:100%;
-    height:auto !important;
-    height:100%;
-    margin:0 auto -120px auto; 
+        min-height:100%;
+        height:auto !important;
+        height:100%;
+        margin:0 auto -120px auto; 
 }
 
 #fillspace {
@@ -37,41 +24,50 @@ h2{
 }
 
 #footer {
-    height: 120px;
-    background-color: #0d485c;
+        height: 120px;
+        background-color: #0d485c;
 }
 
 
 #footer .row p {
-    color: #fff;
-    padding-top: 2%;
+        color: #fff;
+        padding-top: 2%;
 }
 
 #footer .row li{
-    color: #fff;    
+        color: #fff;    
 }
 
 #footer .row a{
-    color: #e4c325;
+        color: #e4c325;
 }
 
 #menu{
-    background-color: #0d485c;
+        background-color: #0d485c;
 }
 
 .navbar-collapse .navbar-nav li a{
-    color: #fff;
+        color: #fff;
 }
 
 .navbar-collapse .navbar-nav li a:hover{
-    color: #0d485c;
+        color: #0d485c;
 }
 
+body {
+        background-color: #FFF;
+        border-color: #4f4d4f;
+        margin: 0 20px 50px;
+}
+.row .navbar-header .navbar-logo{
+
+
+}
 
 .well{
-    background-color: #d2d2dc;
-    border-color: #4f4d4f;
-    margin-top: 20px; /* cut off top portion of wells */
+        background-color: #d2d2dc;
+        border-color: #4f4d4f;
+        margin-top: 20px; /* cut off top portion of wells */
 }
 
 
