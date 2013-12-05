@@ -1,8 +1,8 @@
 
 // Set up the options for ajax
 
-//var form1 = '#madlib1';
-//var form2 = '#madlib2';
+var form1 = '#madlib1';
+var form2 = '#madlib2';
 
 //#madlib1 is the id of one of the two forms
 if(form ='#madlib1') {  
@@ -21,7 +21,7 @@ if(form ='#madlib1') {
         }
     };
 
-    $('form').ajaxForm(options1);
+    $('form1').ajaxForm(options1);
 }
 
 else if (form ='#madlib2') {
@@ -40,6 +40,6 @@ else if (form ='#madlib2') {
         }
     };
 
-    $('form').ajaxForm(options2);
+    $('form2').ajaxForm(options2);
 
 }
