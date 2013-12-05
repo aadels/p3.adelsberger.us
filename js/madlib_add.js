@@ -6,7 +6,7 @@
 $('form').attr(id);
 
 //#madlib1 is the id of one of the two forms
-if(value =='#madlib1') {  
+if($('form') =='#madlib1') {  
     var options = {
                         
         type: 'post',
