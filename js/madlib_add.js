@@ -3,8 +3,8 @@
 
 
 //var value = $('#madlib1').html();
-$('form').attr('id');
-
+var form_id  = $('form').attr('id');
+ console.log(id);
 //#madlib1 is the id of one of the two forms
 if($('form') == '#madlib1') {  
     var options = {
