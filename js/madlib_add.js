@@ -2,7 +2,8 @@
 // Set up the options for ajax
 
 
-var value = $(this).html();
+//var value = $('#madlib1').html();
+$('form').attr(id);
 
 //#madlib1 is the id of one of the two forms
 if(value =='#madlib1') {  
