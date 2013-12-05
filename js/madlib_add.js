@@ -4,6 +4,7 @@
 //var form1 = '#madlib1';
 //var form2 = '#madlib2';
 
+//#madlib1 is the id of one of the two forms
 if('#madlib1') {  
     var options1 = {
                         
