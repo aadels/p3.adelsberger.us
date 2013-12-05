@@ -29,6 +29,7 @@ body {
     min-height:100%;
     height:auto !important;
     height:100%;
+    width:auto;
     margin:0 auto -120px auto; 
 }
 
