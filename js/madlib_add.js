@@ -1,10 +1,10 @@
 
 // Set up the options for ajax
 
-var form1;
-var form2;
+var form1 = '#madlib1';
+var form2 = '#madlib2';
 
-if(form1 = '#madlib1') {  
+if(form1) {  
     var options1 = {
                         
         type: 'post',
