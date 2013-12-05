@@ -19,7 +19,7 @@ if($('form') == '#madlib1') {
         success: function(response) {
             console.log(id);
             $(".madlib_form").hide();
-            $('#results').html(response);
+            $('#results1').html(response);
         }
     };
 
@@ -38,7 +38,7 @@ else {
         //Hide form and display results
         success: function(response) {
             $(".madlib_form").hide();
-            $('#results').html(response);
+            $('#results2').html(response);
         }
     };
 
