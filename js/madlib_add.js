@@ -6,7 +6,7 @@
 
 //#madlib1 is the id of one of the two forms
 if(form ='#madlib1') {  
-    var options1 = {
+    var options = {
                         
         type: 'post',
         url: 'process1.php',
@@ -21,11 +21,11 @@ if(form ='#madlib1') {
         }
     };
 
-    $('form').ajaxForm(options1);
+    $('form').ajaxForm(options);
 }
 
 else {
-    var options2 = {
+    var options = {
                         
         type: 'post',
         url: 'process2.php',
@@ -40,6 +40,7 @@ else {
         }
     };
 
-    $('form').ajaxForm(options2);
+    $('form').ajaxForm(options);
 
 }
+
