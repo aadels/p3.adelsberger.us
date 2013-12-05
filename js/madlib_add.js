@@ -49,14 +49,14 @@ var form2 = "madlib2.html";
 
 if(form1) {  
     var options = {
-        type: 'post',
-        url: 'process1.php',
+        type: 'post';
+        url: 'process1.php';
     }
 }
 else {
     var options = {
-        type: 'post',
-        url: 'process2.php',
+        type: 'post';
+        url: 'process2.php';
     }
 }
    
