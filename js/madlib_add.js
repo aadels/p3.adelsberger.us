@@ -7,6 +7,7 @@ var form_id  = $('form').attr('id');
  console.log(form_id);
 //#madlib1 is the id of one of the two forms
 if(form_id == 'madlib1') {  
+    console.log("enter madlib1");
     var options = {
                         
         type: 'post',
@@ -27,6 +28,7 @@ if(form_id == 'madlib1') {
 }
 
 else {
+    console.log("entered madlib2");
     var options = {
                         
         type: 'post',
