@@ -66,8 +66,8 @@ input.button:hover {
 }
 
 textarea:focus, input:focus {
-border: 1px solid #3366cc;
-	}
+	border: 1px solid #3366cc;
+}
 
 /*input display style*/
 #results {
