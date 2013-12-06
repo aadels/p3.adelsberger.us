@@ -2,7 +2,7 @@
 
 //Set up variable for form by its id attribute
 var form_id  = $('form').attr('id');
- console.log(form_id);
+
 //if the id for form 1 is chosen, post results in process1 text if not post in process2 text
 if(form_id == 'madlib1') {
    process_url = "process1.php";
@@ -24,6 +24,7 @@ var options = {
         $(".madlib_form").hide();
         $('#results').html(response);
     }
+    
 };
 
 $('form').ajaxForm(options);

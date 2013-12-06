@@ -1,6 +1,6 @@
 <?php
 //Text from "Eleanor Rigby." Paul McCartney and John Lennon. 
-//input label ideas from: http://madlibs.org/cgi-bin/madlib?rigby.ml2
+//excerpt idea from: http://madlibs.org/cgi-bin/madlib?rigby.ml2
 
 	echo "Ah, look at all the ".($_POST['input1'])." ".($_POST['input2'])."! <br>
 	Ah, look at all the ". ($_POST['input1'])." ".($_POST['input2'])."!  <br><br>
