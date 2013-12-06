@@ -12,6 +12,6 @@
 	O nature, what hadst thou to do in ". ($_POST['input10']). "<br>
 	 When thou didst bower the spirit of a ". ($_POST['input11']). "<br> 
 	In mortal paradise of such ". ($_POST['input12'])." flesh? <br> 
-	Was ever book containing such ". ($_POST['input13']) . "matter <br> 
+	Was ever book containing such ". ($_POST['input13']) . " matter <br> 
 	So fairly bound? O, that deceit should dwell <br> 
 	In such a ". ($_POST['input14'])." palace!";
